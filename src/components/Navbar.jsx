@@ -3,7 +3,7 @@ import Button from "./Button";
 
 function Navbar() {
   return (
-    <div className="container mx-auto flex items-center justify-between py-5 border-b-[.5px] border-zinc-700 font-[SL]">
+    <div className="container sticky bg-[#161618]  top-0 mx-auto flex items-center justify-between py-5 border-b-[.5px] border-zinc-700 font-[SL]">
       <div className="flex items-center gap-20">
         <div className="w-20">
           <img
