@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: SL;
+    src: url(../fonts/Satoshi-Light.otf);
+}
+@font-face {
+    font-family: SB;
+    src: url(../fonts/Satoshi-Bold.otf);
+}
+@font-face {
+    font-family: SM;
+    src: url(../fonts/Satoshi-Medium.otf);
+}
