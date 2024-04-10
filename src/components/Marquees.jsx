@@ -27,7 +27,7 @@ function Marquees() {
       ],
     ];
   return (
-    <div className='w-full h-[60vh] flex items-center justify-center flex-col gap-12 whitespace-nowrap overflow-hidden'>
+    <div className='w-full h-[60vh] my-32 flex items-center justify-center flex-col gap-12 whitespace-nowrap overflow-hidden'>
       {images.map((item,index) => <Marquee key={index} url={item}/>)}
     </div>
   );
