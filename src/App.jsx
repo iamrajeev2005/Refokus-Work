@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Work from "./components/Work";
 import Stripes from "./components/Stripes";
+import Straps from "./components/Straps";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Work />
       <Stripes />
+      <Straps/>
     </div>
   );
 }

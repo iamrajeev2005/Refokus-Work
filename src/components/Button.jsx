@@ -1,11 +1,11 @@
 import { BsArrowReturnRight } from "react-icons/bs";
 import React from "react";
 
-function Button() {
+function Button({name}) {
   return (
     <div>
       <button className="bg-[#F1ECFF] text-black font-regular text-sm py-2 px-5 rounded-full flex items-center gap-4">
-        Start a Project
+        {name}
         <div>
           <BsArrowReturnRight />
         </div>

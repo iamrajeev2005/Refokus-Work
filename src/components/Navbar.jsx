@@ -31,7 +31,7 @@ function Navbar() {
           })}
         </div>
       </div>
-      <Button />
+      <Button name={"Start a Project"}/>
     </div>
   );
 }
