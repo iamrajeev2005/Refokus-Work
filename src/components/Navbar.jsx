@@ -14,7 +14,7 @@ function Navbar() {
         <div className="flex items-center gap-16 text-sm ">
           {["Home", "Work", "Careers", "News"].map((item, index) => {
             return (
-              <div className="flex items-center">
+              <div key={index} className="flex items-center">
                 {index === 1 && (
                   <span className="inline-block h-[.35vw] w-[.35vw] mr-1 bg-[#00FF19] rounded-full shadow-[0_0_0.25em_#00FF19]"></span>
                 )}
