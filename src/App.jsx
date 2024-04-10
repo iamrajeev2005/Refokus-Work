@@ -4,6 +4,7 @@ import Work from "./components/Work";
 import Stripes from "./components/Stripes";
 import Straps from "./components/Straps";
 import Marquees from "./components/Marquees";
+import Boxes from "./components/Boxes";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Stripes />
       <Straps/>
       <Marquees/>
+      <Boxes/>
     </div>
   );
 }
