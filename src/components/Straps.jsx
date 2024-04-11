@@ -76,7 +76,7 @@ function Straps() {
                 autoPlay
                 muted
                 loop
-                src={strapData[0].url}
+                src={data[0].url}
               ></video>
             </div>
           </motion.div>
@@ -91,7 +91,7 @@ function Straps() {
                 autoPlay
                 muted
                 loop
-                src={strapData[1].url}
+                src={data[1].url}
               ></video>
             </div>
           </motion.div>
@@ -106,7 +106,7 @@ function Straps() {
                 autoPlay
                 muted
                 loop
-                src={strapData[2].url}
+                src={data[2].url}
               ></video>
             </div>
           </motion.div>
@@ -121,7 +121,7 @@ function Straps() {
                 autoPlay
                 muted
                 loop
-                src={strapData[3].url}
+                src={data[3].url}
               ></video>
             </div>
           </motion.div>
@@ -136,7 +136,7 @@ function Straps() {
                 autoPlay
                 muted
                 loop
-                src={strapData[4].url}
+                src={data[4].url}
               ></video>
             </div>
           </motion.div>
