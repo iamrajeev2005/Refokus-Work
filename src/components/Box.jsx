@@ -6,7 +6,7 @@ import Button from './Button';
 function Box({top,text,btm,head}) {
   return (
     <div
-      className={`bg-zinc-800 w-fit rounded-2xl py-2 font-[SM] px-4 transition-all duration-500 ${
+      className={`bg-zinc-800 hover:px-2 w-fit rounded-2xl py-2 font-[SM] px-4 transition-all duration-500 ${
         head ? "hover:bg-[#7443FF]" : "hover:bg-zinc-600"
       }`}
     >
